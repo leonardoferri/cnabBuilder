@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/backend/cnabRows.js -f 21 -t 34 -s p -p ./cnabExample.rem",
+
+        
+        "runtimeExecutable": "C:\\Users\\leona\\AppData\\Local\\fnm_multishells\\7968_1727885757768\\node.exe" // Caminho do Node.js no Windows
+        // "runtimeExecutable": "/usr/local/bin/node" // Para Linux/Mac
+      }
+    ]
+  }
